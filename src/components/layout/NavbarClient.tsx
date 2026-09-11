@@ -63,16 +63,7 @@ export function NavbarClient({
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Close dropdown on outside click
-  useEffect(() => {
-    const handleClick = (e: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
-        setActiveDropdown(null);
-      }
-    };
-    document.addEventListener("mousedown", handleClick);
-    return () => document.removeEventListener("mousedown", handleClick);
-  }, []);
+
 
   // Close mobile menu when route changes
   useEffect(() => {
@@ -255,7 +246,7 @@ export function NavbarClient({
 
       {/* Mobile Drawer */}
       {mobileOpen && (
-        <div className="fixed inset-0 z-40 sm:hidden">
+        <div className="fixed inset-0 z-50 sm:hidden">
           {/* Backdrop */}
           <div
             className="absolute inset-0 bg-background/60 backdrop-blur-sm"
@@ -292,6 +283,7 @@ export function NavbarClient({
             <nav className="flex-1 overflow-y-auto p-4 space-y-1">
               {navLinks.map((link) => {
                 const active = isActive(link.href);
+                const hasChildren = link.children && link.children.length > 0;
                 return (
                   <Link
                     key={link.href}
@@ -305,6 +297,7 @@ export function NavbarClient({
                     )}
                   >
                     <span>{link.label}</span>
+                    
                     <ArrowIcon className="w-4 h-4 text-muted-foreground" />
                   </Link>
                 );

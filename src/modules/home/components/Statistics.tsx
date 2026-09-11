@@ -12,16 +12,16 @@ export async function Statistics() {
   ];
 
   return (
-    <section className="border-y border-border/60 bg-gradient-to-r from-primary/3 via-card/80 to-accent/3 py-14">
+    <section className="relative border-y border-border/80 bg-gradient-to-r from-primary/[0.04] via-card/90 to-accent/[0.04] py-16 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 divide-y sm:divide-y-0 sm:divide-x rtl:sm:divide-x-reverse divide-border/60">
           {stats.map((stat, i) => (
-            <MotionWrapper key={stat.label} delay={i * 0.1}>
-              <div className="text-center space-y-1.5">
-                <div className="text-4xl sm:text-5xl font-black text-primary tracking-tight">
+            <MotionWrapper key={stat.label} delay={i * 0.1} className={i > 0 ? "pt-6 sm:pt-0 sm:ps-8" : ""}>
+              <div className="text-center sm:text-start space-y-2 group">
+                <div className="text-4xl sm:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent tracking-tight transition-transform duration-300 group-hover:scale-105 inline-block">
                   {stat.value}
                 </div>
-                <div className="text-sm font-medium text-muted-foreground">
+                <div className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-muted-foreground">
                   {stat.label}
                 </div>
               </div>
@@ -32,3 +32,4 @@ export async function Statistics() {
     </section>
   );
 }
+

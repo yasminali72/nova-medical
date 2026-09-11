@@ -2,7 +2,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    --background: 216 33% 98%;
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
@@ -11,56 +11,58 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 173 80% 36%;
+    /* Deep Medical Cyan / Teal */
+    --primary: 174 78% 36%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96%;
+    --secondary: 214 32% 95%;
     --secondary-foreground: 222 47% 11%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 215 28% 95%;
+    --muted-foreground: 215 16% 46%;
 
-    --accent: 199 89% 48%;
+    /* Vibrant Azure */
+    --accent: 200 95% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 173 80% 36%;
+    --border: 215 28% 90%;
+    --input: 215 28% 90%;
+    --ring: 174 78% 36%;
 
-    --radius: 0.875rem;
+    --radius: 1rem;
   }
 
   .dark {
-    --background: 222 47% 7%;
+    --background: 224 50% 6%;
     --foreground: 210 40% 98%;
 
-    --card: 222 47% 10%;
+    --card: 224 45% 9%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222 47% 10%;
+    --popover: 224 45% 9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 173 70% 45%;
-    --primary-foreground: 222 47% 7%;
+    --primary: 172 75% 44%;
+    --primary-foreground: 224 50% 6%;
 
-    --secondary: 217 33% 15%;
+    --secondary: 220 30% 14%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 217 33% 15%;
+    --muted: 220 30% 14%;
     --muted-foreground: 215 20% 65%;
 
-    --accent: 199 89% 52%;
-    --accent-foreground: 222 47% 7%;
+    --accent: 198 90% 50%;
+    --accent-foreground: 224 50% 6%;
 
-    --destructive: 0 63% 31%;
+    --destructive: 0 63% 38%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 33% 18%;
-    --input: 217 33% 18%;
-    --ring: 173 70% 45%;
+    --border: 220 30% 16%;
+    --input: 220 30% 16%;
+    --ring: 172 75% 44%;
   }
 }
 
@@ -69,6 +71,19 @@ body {
   color: hsl(var(--foreground));
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   overflow-x: hidden;
+  background-image: 
+    radial-gradient(at 15% 15%, hsla(174, 80%, 40%, 0.04) 0px, transparent 50%),
+    radial-gradient(at 85% 20%, hsla(200, 95%, 45%, 0.04) 0px, transparent 50%),
+    radial-gradient(at 50% 90%, hsla(174, 80%, 40%, 0.03) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+.dark body {
+  background-image: 
+    radial-gradient(at 10% 10%, hsla(172, 75%, 45%, 0.06) 0px, transparent 45%),
+    radial-gradient(at 90% 25%, hsla(198, 90%, 50%, 0.06) 0px, transparent 45%),
+    radial-gradient(at 50% 85%, hsla(172, 75%, 45%, 0.04) 0px, transparent 50%);
+  background-attachment: fixed;
 }
 
 /* Custom scrollbar */
@@ -82,12 +97,54 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(var(--muted-foreground) / 0.3);
-  border-radius: 4px;
+  background: hsl(var(--muted-foreground) / 0.25);
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--muted-foreground) / 0.5);
+  background: hsl(var(--primary) / 0.5);
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: hsl(var(--card) / 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid hsl(var(--border) / 0.8);
+}
+
+.glass-card {
+  background: linear-gradient(135deg, hsl(var(--card) / 0.85) 0%, hsl(var(--card) / 0.5) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid hsl(var(--border) / 0.8);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+}
+
+/* Premium gradient badge */
+.badge-premium {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, hsl(var(--primary) / 0.12), hsl(var(--accent) / 0.12));
+  color: hsl(var(--primary));
+  border: 1px solid hsl(var(--primary) / 0.25);
+  box-shadow: 0 2px 10px -2px hsl(var(--primary) / 0.2);
+}
+
+/* Mesh glow container */
+.mesh-glow {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  pointer-events: none;
+  opacity: 0.7;
 }
 
 /* RTL layout adjustments */
@@ -98,3 +155,4 @@ body {
 [dir="ltr"] {
   text-align: left;
 }
+

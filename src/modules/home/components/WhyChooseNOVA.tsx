@@ -14,7 +14,7 @@ export async function WhyChooseNOVA() {
   ];
 
   return (
-    <section className="bg-card/50 border-y border-border/70 py-20">
+    <section className="relative bg-card/60 backdrop-blur-md border-y border-border/70 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge={t("home.whyChooseUs.badge")}
@@ -26,12 +26,21 @@ export async function WhyChooseNOVA() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {items.map(({ icon: Icon, titleKey, descKey }, i) => (
             <MotionWrapper key={titleKey} delay={i * 0.1}>
-              <div className="group p-7 rounded-2xl bg-background border border-border/80 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 h-full space-y-4">
-                <div className="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all duration-300">
-                  <Icon className="w-6 h-6" />
+              <div className="group p-8 rounded-3xl bg-background border border-border/80 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 h-full flex flex-col justify-between space-y-4">
+                <div className="space-y-4">
+                  <div className="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center group-hover:scale-110 group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-accent group-hover:text-white transition-all duration-300 shadow-sm">
+                    <Icon className="w-7 h-7" />
+                  </div>
+                  <h3 className="text-xl font-bold text-foreground leading-snug group-hover:text-primary transition-colors">
+                    {t(titleKey)}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {t(descKey)}
+                  </p>
                 </div>
-                <h3 className="text-lg font-bold text-foreground">{t(titleKey)}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{t(descKey)}</p>
+                <div className="pt-4 border-t border-border/50 text-[11px] font-bold text-primary flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <span>Guaranteed Standards</span>
+                </div>
               </div>
             </MotionWrapper>
           ))}
@@ -40,3 +49,4 @@ export async function WhyChooseNOVA() {
     </section>
   );
 }
+

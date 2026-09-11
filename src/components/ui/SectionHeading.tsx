@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Sparkles } from "lucide-react";
 
 interface SectionHeadingProps {
   badge?: string;
@@ -18,24 +19,26 @@ export function SectionHeading({
   return (
     <div
       className={cn(
-        "max-w-3xl space-y-3",
-        centered ? "mx-auto text-center" : "",
+        "max-w-3xl space-y-4",
+        centered ? "mx-auto text-center items-center flex flex-col" : "",
         className
       )}
     >
       {badge && (
-        <span className="inline-flex items-center gap-1.5 px-3.5 py-1 text-xs font-semibold tracking-wide uppercase rounded-full bg-primary/10 text-primary border border-primary/20">
-          {badge}
-        </span>
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-xs font-semibold text-primary backdrop-blur-md shadow-sm">
+          <Sparkles className="w-3.5 h-3.5 text-primary animate-pulse" />
+          <span>{badge}</span>
+        </div>
       )}
-      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-foreground font-heading">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-foreground leading-[1.15]">
         {title}
       </h2>
       {subtitle && (
-        <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+        <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl">
           {subtitle}
         </p>
       )}
     </div>
   );
 }
+

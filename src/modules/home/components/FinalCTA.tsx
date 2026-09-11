@@ -32,7 +32,7 @@ export async function FinalCTA() {
           <div className="flex flex-wrap items-center gap-4 pt-4">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white text-foreground font-black text-base shadow-2xl hover:bg-slate-50 transition-all duration-200 active:scale-[0.98] group"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white text-primary font-black text-base shadow-2xl hover:bg-slate-50 transition-all duration-200 active:scale-[0.98] group"
             >
               <Calendar className="w-4 h-4 text-primary" />
               <span>{t("home.cta.button")}</span>

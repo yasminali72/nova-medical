@@ -19,6 +19,8 @@ import {
   ArrowRight,
   ArrowLeft,
   Sparkles,
+  BriefcaseMedical,
+  ActivityIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -90,7 +92,7 @@ export function NavbarClient({
         className={cn(
           "sticky top-0 z-50 w-full transition-all duration-300",
           scrolled
-            ? "bg-background/92 backdrop-blur-xl border-b border-border/80 shadow-sm shadow-black/5"
+            ? "bg-background/92 backdrop-blur-xl border-b border-border/80 shadow-sm shadow-black/5 "
             : "bg-background/70 backdrop-blur-sm border-b border-transparent"
         )}
       >
@@ -116,13 +118,13 @@ export function NavbarClient({
         </div>
 
         {/* Main Nav Row */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-[72px] flex items-center justify-between gap-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-[72px] flex items-center justify-between gap-6 ">
 
           {/* Brand */}
           <Link href="/" className="flex items-center gap-3 shrink-0 group">
             <div className="relative">
               <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-md shadow-primary/25 group-hover:shadow-primary/40 group-hover:scale-105 transition-all duration-300">
-                <Heart className="w-5 h-5 text-white fill-white" />
+                <Activity className="w-5 h-5 text-white fill-white" />
               </div>
               <div className="absolute -top-0.5 -right-0.5 w-3 h-3 rounded-full bg-emerald-400 border-2 border-background animate-pulse" />
             </div>

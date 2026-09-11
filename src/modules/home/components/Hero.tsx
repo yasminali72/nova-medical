@@ -124,7 +124,7 @@ export async function Hero() {
                 {/* Main Hero Image Container */}
                 <div className="relative rounded-[2.25rem] overflow-hidden border border-border/80 shadow-2xl aspect-[4/5] bg-card">
                   <Image
-                    src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=85&w=1000"
+                    src="/mo.png"
                     alt="NOVA Medical Center Doctors"
                     fill
                     priority

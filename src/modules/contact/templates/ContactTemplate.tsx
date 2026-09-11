@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { ContactForm } from "@/components/ui/ContactForm";
+import { ContactForm } from "@/components/forms/ContactForm";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { MotionWrapper } from "@/components/ui/MotionWrapper";
 

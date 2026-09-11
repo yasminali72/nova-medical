@@ -1,0 +1,535 @@
+{
+  "common": {
+    "centerName": "NOVA Medical Center",
+    "centerTagline": "Advanced Care. Compassionate People.",
+    "exploreServices": "Explore Our Services",
+    "contactUs": "Contact Us",
+    "viewProfile": "View Profile",
+    "learnMore": "Learn More",
+    "allSpecialties": "All Specialties",
+    "allServices": "All Services",
+    "doctorsCount": "Specialists",
+    "yearsExperience": "Years of Experience",
+    "patientsServed": "Patients Served",
+    "satisfactionRate": "Patient Satisfaction",
+    "english": "English",
+    "arabic": "العربية",
+    "french": "French",
+    "german": "German",
+    "readMore": "Read More",
+    "getInTouch": "Get In Touch",
+    "ourLocation": "Our Location",
+    "callUs": "Call Us Directly",
+    "emailUs": "Send an Email",
+    "workingHours": "Operating Hours",
+    "monToFri": "Saturday – Thursday: 8:00 AM – 9:00 PM",
+    "friday": "Friday: 2:00 PM – 9:00 PM (Emergency 24/7)",
+    "emergencyNotice": "For critical medical emergencies, please visit our 24/7 Urgent Care department directly.",
+    "phone": "+971 4 800 6682",
+    "email": "care@novamedicalcenter.com",
+    "address": "402 Healthcare City, Al Razi Building, Dubai, UAE",
+    "backToHome": "Back to Home",
+    "backToServices": "Back to Services",
+    "backToDoctors": "Back to Doctors",
+    "fictionalDisclaimer": "NOVA Medical Center is a conceptual showcase portfolio project created to demonstrate modern Front-End engineering excellence."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "specialties": "Specialties",
+    "doctors": "Doctors",
+    "facilities": "Facilities",
+    "contact": "Contact",
+    "bookInquiry": "Make an Inquiry"
+  },
+  "home": {
+    "hero": {
+      "badge": "Excellence in Modern Healthcare",
+      "title": "Comprehensive healthcare, closer to you.",
+      "description": "At NOVA Medical Center, we combine state-of-the-art medical technology with empathetic, human-first care across 8 leading clinical departments.",
+      "primaryCTA": "Explore Our Services",
+      "secondaryCTA": "Contact Us",
+      "activePatientsLabel": "Trusted by over 10,000+ families annually",
+      "emergencyBadge": "24/7 Rapid Diagnostics & Care"
+    },
+    "stats": {
+      "specialists": "15+",
+      "specialistsLabel": "Board-Certified Specialists",
+      "departments": "8",
+      "departmentsLabel": "Medical Specialties",
+      "patients": "10K+",
+      "patientsLabel": "Satisfied Patients",
+      "experience": "12+",
+      "experienceLabel": "Years of Clinical Excellence"
+    },
+    "whyChooseUs": {
+      "badge": "The NOVA Standard",
+      "title": "Why Choose NOVA Medical Center",
+      "subtitle": "We are dedicated to elevating standards of outpatient diagnosis and clinical management.",
+      "item1": {
+        "title": "Experienced Specialists",
+        "description": "Consult with internationally trained doctors, fellows, and leaders in modern clinical practice."
+      },
+      "item2": {
+        "title": "Modern Facilities",
+        "description": "Equipped with advanced diagnostic ultrasound, automated pathology labs, and ergonomic patient suites."
+      },
+      "item3": {
+        "title": "Patient-Centered Care",
+        "description": "Personalized treatment pathways designed around your schedule, wellbeing, and total comfort."
+      },
+      "item4": {
+        "title": "Comprehensive Services",
+        "description": "From preventive screenings to advanced dermatological, pediatric, and cardiac assessments in one center."
+      }
+    },
+    "specialtiesPreview": {
+      "badge": "Departments",
+      "title": "Explore Our Medical Specialties",
+      "subtitle": "Specialized departments designed to address your healthcare needs with accuracy and compassion.",
+      "viewAll": "View All Specialties"
+    },
+    "servicesPreview": {
+      "badge": "Clinical Offerings",
+      "title": "Focused Medical Services",
+      "subtitle": "Discover our signature clinical programs, checkups, and therapeutic consultations.",
+      "viewAll": "Explore All Services"
+    },
+    "facilitiesPreview": {
+      "badge": "Our Environment",
+      "title": "World-Class Healthcare Environments",
+      "subtitle": "Designed with a calming atmosphere, sterile precision, and the latest medical infrastructure.",
+      "viewAll": "Tour All Facilities"
+    },
+    "doctorsPreview": {
+      "badge": "Clinical Staff",
+      "title": "Meet Our Specialists",
+      "subtitle": "Empathetic physicians with credentials from premier global universities and healthcare systems.",
+      "viewAll": "View Medical Directory"
+    },
+    "journey": {
+      "badge": "Simple Process",
+      "title": "Your Healthcare Experience",
+      "subtitle": "We believe receiving exceptional medical care should be seamless, transparent, and supportive.",
+      "step1": {
+        "number": "01",
+        "title": "Discover",
+        "description": "Explore our specialties, verify doctor profiles, and review detailed clinical service plans."
+      },
+      "step2": {
+        "number": "02",
+        "title": "Connect",
+        "description": "Reach our friendly desk team via direct phone, email, or our online inquiry form with instant responses."
+      },
+      "step3": {
+        "number": "03",
+        "title": "Visit",
+        "description": "Arrive at our welcoming center for on-time consultations, minimal waiting, and focused attentive care."
+      }
+    },
+    "testimonials": {
+      "badge": "Patient Stories",
+      "title": "Trusted by our community",
+      "subtitle": "Read reviews from families and individuals who chose NOVA for their regular healthcare.",
+      "t1": {
+        "name": "Sarah Jenkins",
+        "role": "Verified Patient",
+        "service": "Cardiology Consultation",
+        "date": "2 months ago",
+        "text": "The attention to detail and calm demeanor of Dr. Vance immediately put my worries at ease. The digital imaging results were available in under 30 minutes. Absolutely outstanding medical facility."
+      },
+      "t2": {
+        "name": "Ahmed Al-Maktoum",
+        "role": "Executive Health Member",
+        "service": "Comprehensive Screening",
+        "date": "3 weeks ago",
+        "text": "From the reception team to the laboratory staff, the experience was smooth and thoroughly professional. The doctor explained every finding clearly without jargon."
+      },
+      "t3": {
+        "name": "Nouran El-Sayed",
+        "role": "Mother of Two",
+        "service": "Pediatric Wellness Checkup",
+        "date": "1 month ago",
+        "text": "Taking toddlers to clinics can be stressful, but the pediatric team at NOVA made my children feel completely at home. Clean, comfortable, and remarkably warm care."
+      }
+    },
+    "cta": {
+      "title": "Your health deserves thoughtful care.",
+      "description": "Experience healthcare crafted around respect, clinical rigor, and immediate responsiveness. Inquire or visit us today.",
+      "button": "Contact Our Center",
+      "secondaryButton": "View Specialties"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "About NOVA Medical Center",
+      "title": "We believe healthcare should be personal, accessible, and built around people.",
+      "subtitle": "Founded on the principle that modern medicine is most effective when technical excellence meets sincere human warmth."
+    },
+    "whoWeAre": {
+      "badge": "Our Story",
+      "title": "Setting a new benchmark for private outpatient healthcare.",
+      "p1": "NOVA Medical Center was established with a singular vision: to create a healthcare environment where patients are treated as partners in their own wellbeing, rather than simply case numbers.",
+      "p2": "Over the past 12 years, we have brought together multidisciplinary consultants, modern non-invasive diagnostic equipment, and warm hospitality to make clinical visits stress-free and efficient."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide evidence-based, compassionate outpatient care utilizing the most advanced diagnostic technologies while prioritizing patient dignity, clarity, and safety."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the preferred community medical destination in the region, recognized for clinical excellence, transparent communication, and preventative health empowerment."
+    },
+    "values": {
+      "badge": "Core Principles",
+      "title": "Values That Guide Every Consultation",
+      "compassion": {
+        "title": "Compassion",
+        "description": "Listening with genuine empathy, acknowledging patient concerns, and treating each individual with warmth."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Upholding strict clinical guidelines, continuous professional development, and rigorous safety standards."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Investing in modern medical diagnostics, automated labs, and seamless digital patient workflows."
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Transparent diagnoses, honest explanations, and strict confidentiality at all times."
+      }
+    },
+    "timeline": {
+      "badge": "Our Milestones",
+      "title": "A Journey of Clinical Growth",
+      "y2014": {
+        "year": "2014",
+        "title": "Foundation & Opening",
+        "desc": "NOVA Medical Center opened its doors with 3 initial departments and 5 core physicians."
+      },
+      "y2017": {
+        "year": "2017",
+        "title": "Laboratory & Diagnostic Wing",
+        "desc": "Integrated automated digital imaging, ultrasound, and high-throughput hematology testing."
+      },
+      "y2021": {
+        "year": "2021",
+        "title": "Specialty Expansion",
+        "desc": "Added specialized pediatric, orthopedic rehabilitation, and modern aesthetic dermatology units."
+      },
+      "y2026": {
+        "year": "2026",
+        "title": "Digital Excellence & Accreditation",
+        "desc": "Recognized for community clinical safety with over 10,000 active families under our care."
+      }
+    }
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Clinical Programs & Treatments",
+    "subtitle": "Discover evidence-informed medical services delivered by certified specialists in modern clinical suites.",
+    "allFilter": "All Services",
+    "durationLabel": "Estimated Duration",
+    "suitableForLabel": "Recommended For",
+    "keyFeatures": "What This Service Includes",
+    "benefits": "Key Benefits",
+    "frequentlyAsked": "Frequently Asked Questions",
+    "relatedDoctors": "Consulting Specialists",
+    "inquireService": "Inquire About This Service",
+    "serviceNotFound": "Service not found",
+    "cardioConsultation": {
+      "title": "Cardiology Consultation & Screening",
+      "subtitle": "Comprehensive heart health evaluations and early risk prevention.",
+      "description": "A thorough cardiovascular screening including 12-lead ECG, blood pressure profiling, cholesterol risk assessment, and personalized cardiac health recommendations.",
+      "f1": "Resting 12-Lead Electrocardiogram (ECG)",
+      "f2": "Arterial pressure and vascular stiffness evaluation",
+      "f3": "Cardiac biomarker and lipid profile review",
+      "f4": "Personalized lifestyle and preventive risk report",
+      "b1": "Early detection of cardiovascular anomalies",
+      "b2": "Direct consultation with European Board-Certified cardiologist",
+      "b3": "Actionable dietary and exercise management roadmap",
+      "suitableFor": "Adults experiencing chest tightness, palpitations, family history of heart disease, or routine health checkups.",
+      "q1": "Do I need to fast before this appointment?",
+      "a1": "Yes, for optimal lipid and metabolic blood analysis, an 8 to 10 hour overnight fast with water is recommended.",
+      "q2": "Are ECG results discussed on the same day?",
+      "a2": "Yes, our cardiologist reviews and explains your ECG graphs and primary observations immediately during your visit."
+    },
+    "dermatologyCare": {
+      "title": "Clinical & Aesthetic Dermatology",
+      "subtitle": "Specialized dermatological diagnostics and skin health therapies.",
+      "description": "Medical management of chronic skin conditions such as eczema, psoriasis, acne vulgaris, coupled with high-precision digital dermoscopy for mole assessments.",
+      "f1": "Digital dermoscopy and full-body mole screening",
+      "f2": "Targeted acne and rosacea therapeutic protocols",
+      "f3": "Allergic dermatosis allergy testing support",
+      "f4": "Skin barrier restoration and sun damage assessment",
+      "b1": "Scientifically verified non-comedogenic protocols",
+      "b2": "Minimally invasive diagnostic procedures",
+      "b3": "Healthy, confident skin with sustainable results",
+      "suitableFor": "Individuals seeking clear diagnoses for recurring skin rashes, acne, pigment changes, or yearly skin checkups.",
+      "q1": "Can I wear cosmetics to my skin consultation?",
+      "a1": "We recommend arriving with clean skin free of heavy makeup so the dermatologist can examine your skin barrier clearly."
+    },
+    "pediatricCheckup": {
+      "title": "Pediatric Wellness & Developmental Checkup",
+      "subtitle": "Nurturing care for infants, children, and teenagers.",
+      "description": "Comprehensive physical exams, growth and milestone tracking, developmental screening, and parent advisory in a warm, child-friendly environment.",
+      "f1": "Physical growth percentiles and developmental milestones",
+      "f2": "Pediatric vision, hearing, and postural screening",
+      "f3": "Nutritional counseling for growing infants and kids",
+      "f4": "Gentle, stress-free clinical examinations",
+      "b1": "Warm, child-attuned pediatric doctors",
+      "b2": "Thorough reassurance and answers for parent concerns",
+      "b3": "Detailed child growth progress booklet",
+      "suitableFor": "Children aged 0 to 16 for routine growth assessments or school entry health clearance.",
+      "q1": "How long does a pediatric wellness visit take?",
+      "a1": "Typically around 40 minutes, ensuring your child remains calm and comfortable throughout the examination."
+    },
+    "dentalCare": {
+      "title": "Preventive & Aesthetic Dental Care",
+      "subtitle": "Precision oral hygiene, smile aesthetics, and preventive dental care.",
+      "description": "Gentle ultrasonic scaling, digital intraoral imaging, enamel remineralization, and conservative cosmetic restorations.",
+      "f1": "High-definition digital intraoral camera tour",
+      "f2": "Gentle ultrasonic cleaning and plaque removal",
+      "f3": "Enamel fluoridation and sensitivity desensitizing",
+      "f4": "Customized oral hygiene home regimen",
+      "b1": "Painless and non-invasive preventative care",
+      "b2": "Restores natural tooth brightness and gum health",
+      "b3": "Avoids future complex and costly restorative procedures",
+      "suitableFor": "Patients due for biannual dental prophylaxis or experiencing tooth sensitivity.",
+      "q1": "Is ultrasonic scaling painful?",
+      "a1": "No, our modern ultrasonic tips use micro-vibrations and cooling water for a gentle, virtually painless experience."
+    },
+    "orthoCare": {
+      "title": "Orthopedic & Joint Rehabilitation",
+      "subtitle": "Non-surgical musculoskeletal therapy and joint restoration.",
+      "description": "Targeted musculoskeletal assessments, joint mobility testing, ergonomic guidance, and customized recovery programs for sports and age-related issues.",
+      "f1": "Biomechanical posture and gait evaluation",
+      "f2": "Joint range of motion and ligamentous stability tests",
+      "f3": "Customized physical rehabilitation protocols",
+      "f4": "Ergonomic workspace and spinal support advisory",
+      "b1": "Relief from chronic back, neck, and joint discomfort",
+      "b2": "Focus on conservative, non-surgical recovery",
+      "b3": "Enhanced flexibility, strength, and mobility",
+      "suitableFor": "People with back stiffness, sports strains, knee pain, or posture-related aches.",
+      "q1": "Do I need an X-ray prior to the orthopedic consultation?",
+      "a1": "If you already have recent imaging, please bring it along. If not, our specialist can determine if imaging is indicated."
+    },
+    "healthScreening": {
+      "title": "Executive Health Screening",
+      "subtitle": "A multi-system preventative checkup for busy professionals.",
+      "description": "An all-inclusive wellness screening evaluating metabolic function, renal and liver health, cardiovascular indices, and comprehensive blood panels.",
+      "f1": "Comprehensive metabolic, liver, and kidney blood panels",
+      "f2": "Complete blood count and inflammatory markers",
+      "f3": "Resting ECG and body composition analysis",
+      "f4": "Detailed multi-page health summary with doctor debrief",
+      "b1": "Complete peace of mind regarding baseline vitality",
+      "b2": "Detection of asymptomatic metabolic imbalances",
+      "b3": "Direct consultation with an Internal Medicine Consultant",
+      "suitableFor": "Adults seeking an annual comprehensive health audit to optimize long-term health and vitality.",
+      "q1": "How fast are the laboratory results ready?",
+      "a1": "Most laboratory panels are completed within 2 to 4 hours due to our in-house automated laboratory."
+    }
+  },
+  "specialties": {
+    "badge": "Specialized Care",
+    "title": "Our Medical Specialties",
+    "subtitle": "Expert-led medical departments working together to provide continuous, high-grade care.",
+    "viewDoctors": "Doctors in this Department",
+    "availableServices": "Available Services",
+    "cardiology": {
+      "name": "Cardiology",
+      "description": "Preventive heart health, cardiovascular diagnosis, hypertension control, and lifestyle management."
+    },
+    "dermatology": {
+      "name": "Dermatology",
+      "description": "Comprehensive clinical skin conditions, eczema, mole mapping, and advanced dermatological health."
+    },
+    "pediatrics": {
+      "name": "Pediatrics",
+      "description": "Dedicated pediatric wellness checks, developmental monitoring, and gentle care for infants and adolescents."
+    },
+    "dentistry": {
+      "name": "Dentistry",
+      "description": "Preventive dental prophylaxis, smile aesthetics, periodontal maintenance, and gentle oral hygiene."
+    },
+    "orthopedics": {
+      "name": "Orthopedics & Sports Medicine",
+      "description": "Joint health, back pain rehabilitation, mobility assessment, and conservative non-surgical therapy."
+    },
+    "internalMedicine": {
+      "name": "Internal Medicine",
+      "description": "Adult general wellness, metabolic management, chronic condition oversight, and comprehensive screening."
+    }
+  },
+  "doctors": {
+    "badge": "Our Team",
+    "title": "Medical Specialists Directory",
+    "subtitle": "Meet our compassionate, certified physicians dedicated to delivering thoughtful clinical care.",
+    "filterAll": "All Doctors",
+    "yearsExperience": "{years} Years of Experience",
+    "languages": "Languages",
+    "education": "Education & Credentials",
+    "areasOfExpertise": "Areas of Expertise",
+    "consultationDays": "Clinic Availability",
+    "bookInquiry": "Request Consultation with Doctor",
+    "profileNotFound": "Doctor profile not found",
+    "drElena": {
+      "name": "Dr. Elena Vance",
+      "title": "Consultant Cardiologist",
+      "bio": "Dr. Elena Vance brings 14 years of clinical experience in preventive cardiology, non-invasive cardiac imaging, and hypertensive disorders across renowned European healthcare centers.",
+      "edu1": "MD – University College London (UCL)",
+      "edu2": "Fellow of the European Society of Cardiology (FESC)",
+      "edu3": "Post-Doctoral Fellowship in Vascular Medicine – Berlin",
+      "exp1": "Preventive Cardiovascular Screening",
+      "exp2": "Hypertension & Arterial Health Management",
+      "exp3": "Echocardiography & Cardiac Stress Diagnostics",
+      "schedule": "Monday, Wednesday, Saturday (9:00 AM – 4:00 PM)"
+    },
+    "drTariq": {
+      "name": "Dr. Tariq Mansour",
+      "title": "Consultant Internal Medicine",
+      "bio": "Dr. Tariq Mansour has spent over 16 years diagnosing complex multisystem conditions, metabolic management, and conducting executive wellness evaluations.",
+      "edu1": "MBBS – American University of Beirut (AUB)",
+      "edu2": "American Board of Internal Medicine (ABIM)",
+      "exp1": "Comprehensive Executive Health Assessments",
+      "exp2": "Type 2 Diabetes & Metabolic Optimization",
+      "exp3": "Preventive Geriatric & Adult Medicine",
+      "schedule": "Sunday to Thursday (8:30 AM – 3:30 PM)"
+    },
+    "drSarah": {
+      "name": "Dr. Sarah Jenkins",
+      "title": "Specialist Dermatologist",
+      "bio": "Dr. Sarah Jenkins is passionate about evidence-based dermatological care, focusing on allergic skin reactions, rosacea, acne therapeutics, and digital dermoscopy.",
+      "edu1": "MD – McGill University Faculty of Medicine",
+      "edu2": "Royal College of Physicians & Surgeons Certification",
+      "exp1": "Acne & Inflammatory Dermatoses",
+      "exp2": "Digital Mole Mapping & Dermoscopy",
+      "exp3": "Skin Barrier Therapeutics & Eczema",
+      "schedule": "Tuesday, Thursday, Saturday (10:00 AM – 6:00 PM)"
+    },
+    "drKhalid": {
+      "name": "Dr. Khalid Al-Omari",
+      "title": "Consultant Orthopedic Surgeon & Rehab",
+      "bio": "Dr. Khalid Al-Omari specializes in conservative joint restoration, sports injury rehabilitation, spinal biomechanics, and evidence-guided non-surgical therapies.",
+      "edu1": "MD – Charité – Universitätsmedizin Berlin",
+      "edu2": "German Board Certification in Orthopedic Surgery (Facharzt)",
+      "exp1": "Joint Preservation & Conservative Rehab",
+      "exp2": "Sports Injury Management & Recovery",
+      "exp3": "Spinal Ergonomics & Postural Correction",
+      "schedule": "Sunday, Monday, Wednesday (9:00 AM – 5:00 PM)"
+    }
+  },
+  "facilities": {
+    "badge": "Modern Infrastructure",
+    "title": "Designed for Care, Comfort & Precision",
+    "subtitle": "Every corner of NOVA Medical Center is engineered to provide peace of mind, clinical sterility, and patient privacy.",
+    "tags": {
+      "patientCare": "Patient Suites",
+      "technology": "High-Tech Diagnostics",
+      "diagnostics": "Pathology & Labs",
+      "services": "Integrated Care",
+      "comfort": "Patient Experience",
+      "welcome": "First Impressions"
+    },
+    "consultation": {
+      "name": "Private Consultation Suites",
+      "description": "Ergonomic doctor offices engineered with acoustic privacy, natural lighting, and patient-first consultation desks.",
+      "f1": "Acoustically insulated walls for strict patient privacy",
+      "f2": "High-resolution digital presentation monitors",
+      "f3": "Ergonomic clinical examination areas"
+    },
+    "imaging": {
+      "name": "Diagnostic Imaging Suite",
+      "description": "Equipped with ultra-low radiation digital X-ray and high-resolution ultrasound machines for rapid clinical decisions.",
+      "f1": "High-resolution ultrasound imaging",
+      "f2": "Digital radiography with instant cloud archival",
+      "f3": "Comfortable imaging suites for reduced anxiety"
+    },
+    "lab": {
+      "name": "Automated Clinical Laboratory",
+      "description": "An on-site diagnostic laboratory running automated biochemistry, hematology, and rapid hormone tests.",
+      "f1": "Same-day routine blood & metabolic results",
+      "f2": "Barcoded specimen tracking ensuring zero error",
+      "f3": "Strict ISO-aligned biological quality controls"
+    },
+    "pharmacy": {
+      "name": "Specialized Outpatient Pharmacy",
+      "description": "Direct dispensing of prescribed medications, pediatric formulations, and specialized dermatological skincare.",
+      "f1": "Pharmacist consultation and dosage guidance",
+      "f2": "Proper temperature-monitored medication storage",
+      "f3": "Direct digital prescription transfer from doctors"
+    },
+    "lounge": {
+      "name": "Executive Waiting Lounges",
+      "description": "Serene waiting environments featuring complimentary artisan coffee, high-speed Wi-Fi, and plush seating.",
+      "f1": "Quiet ambient lighting and filtered fresh air",
+      "f2": "Complimentary refreshments and digital reading material",
+      "f3": "Spaced seating layouts ensuring calm and personal space"
+    },
+    "reception": {
+      "name": "Concierge Reception Desk",
+      "description": "A warm greeting area staffed by multilingual concierges ready to coordinate your visit without delays.",
+      "f1": "Fast touchless check-in and scheduling support",
+      "f2": "Dedicated patient coordinators for inquiries",
+      "f3": "Clear directional signage in English and Arabic"
+    }
+  },
+  "contact": {
+    "badge": "Reach Out",
+    "title": "We are here to assist you.",
+    "subtitle": "Have questions about our doctors, treatments, or clinic location? Send an inquiry or visit our clinic.",
+    "infoTitle": "Contact Information",
+    "infoSubtitle": "Reach our patient coordination desk directly during operating hours.",
+    "formTitle": "Send a Message",
+    "formSubtitle": "Fill out the form below and our team will get in touch shortly.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "e.g. Alexander Wright",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "e.g. alexander@example.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "e.g. +971 50 123 4567",
+    "subjectLabel": "Subject / Department",
+    "subjectPlaceholder": "Select a department or general inquiry",
+    "subjectGeneral": "General Inquiry",
+    "subjectCardiology": "Cardiology Department",
+    "subjectDermatology": "Dermatology Department",
+    "subjectPediatrics": "Pediatrics Department",
+    "subjectDentistry": "Dental Care Department",
+    "subjectOrtho": "Orthopedics & Rehab",
+    "subjectInternal": "Executive Health Screening",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Please share your questions or preferred consultation dates...",
+    "submitBtn": "Send Message",
+    "submitting": "Sending Inquiry...",
+    "successTitle": "Message Sent Successfully",
+    "successDesc": "Thank you for reaching out to NOVA Medical Center. Our patient coordinator will review your message and reply via email or phone within a few hours.",
+    "sendAnother": "Send Another Inquiry",
+    "errors": {
+      "nameMin": "Name must be at least 2 characters.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneMin": "Please enter a valid phone number (at least 7 digits).",
+      "subjectRequired": "Please select a subject or department.",
+      "messageMin": "Message must be at least 10 characters long."
+    },
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "q1": "Do I need a doctor's referral to visit NOVA Medical Center?",
+      "a1": "No, you do not need a referral. You can reach out directly to consult any of our specialist physicians.",
+      "q2": "Is parking available at the medical center?",
+      "a2": "Yes, we offer complimentary on-site parking and valet service for all patients and their companions.",
+      "q3": "How quickly can I get an appointment?",
+      "a3": "Our coordinators typically arrange consultation slots within 24 to 48 hours, with urgent cases accommodated same-day."
+    }
+  },
+  "footer": {
+    "tagline": "A standard of medical excellence built around clarity, empathy, and technological precision.",
+    "quickLinks": "Quick Links",
+    "departments": "Specialties",
+    "hours": "Clinic Hours",
+    "rights": "All rights reserved.",
+    "disclaimer": "Fictional portfolio project. Designed & built for demonstration purposes.",
+    "emergencyText": "Emergency line available 24/7 for urgent clinical guidance: +971 4 800 6682"
+  }
+}

@@ -1,0 +1,58 @@
+import { Specialty } from "@/types/medical";
+
+export const specialties: Specialty[] = [
+  {
+    id: "cardiology",
+    slug: "cardiology",
+    nameKey: "specialties.cardiology.name",
+    descriptionKey: "specialties.cardiology.description",
+    icon: "HeartPulse",
+    stats: "15+ Doctors",
+    servicesCount: 6,
+  },
+  {
+    id: "dermatology",
+    slug: "dermatology",
+    nameKey: "specialties.dermatology.name",
+    descriptionKey: "specialties.dermatology.description",
+    icon: "Sparkles",
+    stats: "8+ Doctors",
+    servicesCount: 5,
+  },
+  {
+    id: "pediatrics",
+    slug: "pediatrics",
+    nameKey: "specialties.pediatrics.name",
+    descriptionKey: "specialties.pediatrics.description",
+    icon: "Baby",
+    stats: "10+ Doctors",
+    servicesCount: 7,
+  },
+  {
+    id: "dentistry",
+    slug: "dentistry",
+    nameKey: "specialties.dentistry.name",
+    descriptionKey: "specialties.dentistry.description",
+    icon: "Smile",
+    stats: "6+ Doctors",
+    servicesCount: 4,
+  },
+  {
+    id: "orthopedics",
+    slug: "orthopedics",
+    nameKey: "specialties.orthopedics.name",
+    descriptionKey: "specialties.orthopedics.description",
+    icon: "Bone",
+    stats: "9+ Doctors",
+    servicesCount: 6,
+  },
+  {
+    id: "internal-medicine",
+    slug: "internal-medicine",
+    nameKey: "specialties.internalMedicine.name",
+    descriptionKey: "specialties.internalMedicine.description",
+    icon: "Stethoscope",
+    stats: "12+ Doctors",
+    servicesCount: 8,
+  },
+];

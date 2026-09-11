@@ -21,7 +21,7 @@ export async function ServiceCard({ service }: ServiceCardProps) {
 
       <div className="relative z-10">
         <div className="flex items-center justify-between mb-6">
-          <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary/15 to-accent/15 text-primary flex items-center justify-center group-hover:scale-105 group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-accent group-hover:text-primary-foreground transition-all duration-300 shadow-sm shadow-primary/10">
+          <div className="w-14 h-14 rounded-2xl text-primary flex items-center justify-center bg-pri group-hover:scale-105 group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-accent group-hover:text-primary-foreground transition-all duration-300 shadow-sm shadow-primary/10">
             <SpecialtyIcon name={service.icon} className="w-7 h-7" />
           </div>
           <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-muted/80 text-xs font-semibold text-muted-foreground border border-border/60">

@@ -27,7 +27,7 @@ export async function DoctorDetailTemplate({ slug }: { slug: string }) {
   const specialty = specialties.find((s) => s.id === doctor.specialtyId);
 
   return (
-    <div className="flex flex-col gap-16 pb-28">
+    <div className="flex flex-col gap-16">
       {/* Breadcrumb */}
       <section className="pt-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <Link

@@ -19,7 +19,7 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
   const t = await getTranslations();
 
   return (
-    <div className="group relative flex flex-col justify-between rounded-3xl bg-card border border-border/80 overflow-hidden hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300">
+    <div className="group relative flex flex-col justify-between rounded-3xl bg-card border border-border/80 overflow-hidden hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300 h-full">
       <div>
         {/* Doctor Photo with overlay */}
         <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted">
@@ -61,7 +61,7 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
 
             {t(doctor.nameKey)}
           </h3>
-          <p className="text-xs font-semibold uppercase tracking-wider text-accent mb-3 mt-0.5">
+          <p className="text-xs font-semibold uppercase tracking-wider text-accent-foreground mb-3 mt-0.5">
             {t(doctor.titleKey)}
           </p>
 
@@ -69,7 +69,9 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
             {t(doctor.bioKey)}
           </p>
 
-          <div className="flex items-center gap-2 text-xs text-foreground/80 font-medium py-2 px-3 rounded-xl bg-muted/60 border border-border/50">
+          <div className="flex items-center gap-2 text-xs text-foreground/80 font-medium py-2 px-3 rounded-xl bg-muted/60 border border-border/50"
+          title={t(doctor.scheduleDaysKey)}
+          >
             <Calendar className="w-3.5 h-3.5 text-primary shrink-0" />
             <span className="line-clamp-1">{t(doctor.scheduleDaysKey)}</span>
           </div>

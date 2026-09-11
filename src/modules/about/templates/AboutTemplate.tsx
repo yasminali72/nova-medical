@@ -134,7 +134,7 @@ export async function AboutTemplate() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {milestones.map((m, i) => (
               <MotionWrapper key={m.year} delay={i * 0.1}>
-                <div className="p-8 rounded-3xl bg-background border border-border/80 space-y-3 hover:border-primary/40 transition-all duration-300">
+                <div className="p-8 h-full rounded-3xl bg-background border border-border/80 space-y-3 hover:border-primary/40 transition-all duration-300">
                   <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent block">{m.year}</span>
                   <h4 className="text-lg font-bold text-foreground">{m.title}</h4>
                   <p className="text-xs text-muted-foreground leading-relaxed font-normal">{m.desc}</p>

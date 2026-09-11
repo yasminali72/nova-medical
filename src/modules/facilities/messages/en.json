@@ -1,1 +1,57 @@
-{}
+{
+  "facilities": {
+    "badge": "Modern Infrastructure",
+    "title": "Designed for Care, Comfort & Precision",
+    "subtitle": "Every corner of NOVA Medical Center is engineered to provide peace of mind, clinical sterility, and patient privacy.",
+    "tags": {
+      "patientCare": "Patient Suites",
+      "technology": "High-Tech Diagnostics",
+      "diagnostics": "Pathology & Labs",
+      "services": "Integrated Care",
+      "comfort": "Patient Experience",
+      "welcome": "First Impressions"
+    },
+    "consultation": {
+      "name": "Private Consultation Suites",
+      "description": "Ergonomic doctor offices engineered with acoustic privacy, natural lighting, and patient-first consultation desks.",
+      "f1": "Acoustically insulated walls for strict patient privacy",
+      "f2": "High-resolution digital presentation monitors",
+      "f3": "Ergonomic clinical examination areas"
+    },
+    "imaging": {
+      "name": "Diagnostic Imaging Suite",
+      "description": "Equipped with ultra-low radiation digital X-ray and high-resolution ultrasound machines for rapid clinical decisions.",
+      "f1": "High-resolution ultrasound imaging",
+      "f2": "Digital radiography with instant cloud archival",
+      "f3": "Comfortable imaging suites for reduced anxiety"
+    },
+    "lab": {
+      "name": "Automated Clinical Laboratory",
+      "description": "An on-site diagnostic laboratory running automated biochemistry, hematology, and rapid hormone tests.",
+      "f1": "Same-day routine blood & metabolic results",
+      "f2": "Barcoded specimen tracking ensuring zero error",
+      "f3": "Strict ISO-aligned biological quality controls"
+    },
+    "pharmacy": {
+      "name": "Specialized Outpatient Pharmacy",
+      "description": "Direct dispensing of prescribed medications, pediatric formulations, and specialized dermatological skincare.",
+      "f1": "Pharmacist consultation and dosage guidance",
+      "f2": "Proper temperature-monitored medication storage",
+      "f3": "Direct digital prescription transfer from doctors"
+    },
+    "lounge": {
+      "name": "Executive Waiting Lounges",
+      "description": "Serene waiting environments featuring complimentary artisan coffee, high-speed Wi-Fi, and plush seating.",
+      "f1": "Quiet ambient lighting and filtered fresh air",
+      "f2": "Complimentary refreshments and digital reading material",
+      "f3": "Spaced seating layouts ensuring calm and personal space"
+    },
+    "reception": {
+      "name": "Concierge Reception Desk",
+      "description": "A warm greeting area staffed by multilingual concierges ready to coordinate your visit without delays.",
+      "f1": "Fast touchless check-in and scheduling support",
+      "f2": "Dedicated patient coordinators for inquiries",
+      "f3": "Clear directional signage in English and Arabic"
+    }
+  }
+}

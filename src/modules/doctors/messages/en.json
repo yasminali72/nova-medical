@@ -1,1 +1,65 @@
-{}
+{
+  "doctors": {
+    "badge": "Our Team",
+    "title": "Medical Specialists Directory",
+    "subtitle": "Meet our compassionate, certified physicians dedicated to delivering thoughtful clinical care.",
+    "filterAll": "All Doctors",
+    "yearsExperience": "{years} Years of Experience",
+    "languages": "Languages",
+    "education": "Education & Credentials",
+    "areasOfExpertise": "Areas of Expertise",
+    "consultationDays": "Clinic Availability",
+    "bookInquiry": "Request Consultation with Doctor",
+    "profileNotFound": "Doctor profile not found",
+    "detail": {
+      "education": "Education & Credentials",
+      "areasOfExpertise": "Areas of Expertise",
+      "yearsExp": "Years Experience"
+    },
+    "drElena": {
+      "name": "Dr. Elena Vance",
+      "title": "Consultant Cardiologist",
+      "bio": "Dr. Elena Vance brings 14 years of clinical experience in preventive cardiology, non-invasive cardiac imaging, and hypertensive disorders across renowned European healthcare centers.",
+      "edu1": "MD – University College London (UCL)",
+      "edu2": "Fellow of the European Society of Cardiology (FESC)",
+      "edu3": "Post-Doctoral Fellowship in Vascular Medicine – Berlin",
+      "exp1": "Preventive Cardiovascular Screening",
+      "exp2": "Hypertension & Arterial Health Management",
+      "exp3": "Echocardiography & Cardiac Stress Diagnostics",
+      "schedule": "Monday, Wednesday, Saturday (9:00 AM – 4:00 PM)"
+    },
+    "drTariq": {
+      "name": "Dr. Tariq Mansour",
+      "title": "Consultant Internal Medicine",
+      "bio": "Dr. Tariq Mansour has spent over 16 years diagnosing complex multisystem conditions, metabolic management, and conducting executive wellness evaluations.",
+      "edu1": "MBBS – American University of Beirut (AUB)",
+      "edu2": "American Board of Internal Medicine (ABIM)",
+      "exp1": "Comprehensive Executive Health Assessments",
+      "exp2": "Type 2 Diabetes & Metabolic Optimization",
+      "exp3": "Preventive Geriatric & Adult Medicine",
+      "schedule": "Sunday to Thursday (8:30 AM – 3:30 PM)"
+    },
+    "drSarah": {
+      "name": "Dr. Sarah Jenkins",
+      "title": "Specialist Dermatologist",
+      "bio": "Dr. Sarah Jenkins is passionate about evidence-based dermatological care, focusing on allergic skin reactions, rosacea, acne therapeutics, and digital dermoscopy.",
+      "edu1": "MD – McGill University Faculty of Medicine",
+      "edu2": "Royal College of Physicians & Surgeons Certification",
+      "exp1": "Acne & Inflammatory Dermatoses",
+      "exp2": "Digital Mole Mapping & Dermoscopy",
+      "exp3": "Skin Barrier Therapeutics & Eczema",
+      "schedule": "Tuesday, Thursday, Saturday (10:00 AM – 6:00 PM)"
+    },
+    "drKhalid": {
+      "name": "Dr. Khalid Al-Omari",
+      "title": "Consultant Orthopedic Surgeon & Rehab",
+      "bio": "Dr. Khalid Al-Omari specializes in conservative joint restoration, sports injury rehabilitation, spinal biomechanics, and evidence-guided non-surgical therapies.",
+      "edu1": "MD – Charité – Universitätsmedizin Berlin",
+      "edu2": "German Board Certification in Orthopedic Surgery (Facharzt)",
+      "exp1": "Joint Preservation & Conservative Rehab",
+      "exp2": "Sports Injury Management & Recovery",
+      "exp3": "Spinal Ergonomics & Postural Correction",
+      "schedule": "Sunday, Monday, Wednesday (9:00 AM – 5:00 PM)"
+    }
+  }
+}

@@ -1,1 +1,120 @@
-{}
+{
+  "home": {
+    "hero": {
+      "badge": "Excellence in Modern Healthcare",
+      "title": "Comprehensive healthcare, closer to you.",
+      "description": "At NOVA Medical Center, we combine state-of-the-art medical technology with empathetic, human-first care across 8 leading clinical departments.",
+      "primaryCTA": "Explore Our Services",
+      "secondaryCTA": "Contact Us",
+      "activePatientsLabel": "Trusted by over 10,000+ families annually",
+      "emergencyBadge": "24/7 Rapid Diagnostics & Care"
+    },
+    "stats": {
+      "specialists": "15+",
+      "specialistsLabel": "Board-Certified Specialists",
+      "departments": "8",
+      "departmentsLabel": "Medical Specialties",
+      "patients": "10K+",
+      "patientsLabel": "Satisfied Patients",
+      "experience": "12+",
+      "experienceLabel": "Years of Clinical Excellence"
+    },
+    "whyChooseUs": {
+      "badge": "The NOVA Standard",
+      "title": "Why Choose NOVA Medical Center",
+      "subtitle": "We are dedicated to elevating standards of outpatient diagnosis and clinical management.",
+      "item1": {
+        "title": "Experienced Specialists",
+        "description": "Consult with internationally trained doctors, fellows, and leaders in modern clinical practice."
+      },
+      "item2": {
+        "title": "Modern Facilities",
+        "description": "Equipped with advanced diagnostic ultrasound, automated pathology labs, and ergonomic patient suites."
+      },
+      "item3": {
+        "title": "Patient-Centered Care",
+        "description": "Personalized treatment pathways designed around your schedule, wellbeing, and total comfort."
+      },
+      "item4": {
+        "title": "Comprehensive Services",
+        "description": "From preventive screenings to advanced dermatological, pediatric, and cardiac assessments in one center."
+      }
+    },
+    "specialtiesPreview": {
+      "badge": "Departments",
+      "title": "Explore Our Medical Specialties",
+      "subtitle": "Specialized departments designed to address your healthcare needs with accuracy and compassion.",
+      "viewAll": "View All Specialties"
+    },
+    "servicesPreview": {
+      "badge": "Clinical Offerings",
+      "title": "Focused Medical Services",
+      "subtitle": "Discover our signature clinical programs, checkups, and therapeutic consultations.",
+      "viewAll": "Explore All Services"
+    },
+    "facilitiesPreview": {
+      "badge": "Our Environment",
+      "title": "World-Class Healthcare Environments",
+      "subtitle": "Designed with a calming atmosphere, sterile precision, and the latest medical infrastructure.",
+      "viewAll": "Tour All Facilities"
+    },
+    "doctorsPreview": {
+      "badge": "Clinical Staff",
+      "title": "Meet Our Specialists",
+      "subtitle": "Empathetic physicians with credentials from premier global universities and healthcare systems.",
+      "viewAll": "View Medical Directory"
+    },
+    "journey": {
+      "badge": "Simple Process",
+      "title": "Your Healthcare Experience",
+      "subtitle": "We believe receiving exceptional medical care should be seamless, transparent, and supportive.",
+      "step1": {
+        "number": "01",
+        "title": "Discover",
+        "description": "Explore our specialties, verify doctor profiles, and review detailed clinical service plans."
+      },
+      "step2": {
+        "number": "02",
+        "title": "Connect",
+        "description": "Reach our friendly desk team via direct phone, email, or our online inquiry form with instant responses."
+      },
+      "step3": {
+        "number": "03",
+        "title": "Visit",
+        "description": "Arrive at our welcoming center for on-time consultations, minimal waiting, and focused attentive care."
+      }
+    },
+    "testimonials": {
+      "badge": "Patient Stories",
+      "title": "Trusted by our community",
+      "subtitle": "Read reviews from families and individuals who chose NOVA for their regular healthcare.",
+      "t1": {
+        "name": "Sarah Jenkins",
+        "role": "Verified Patient",
+        "service": "Cardiology Consultation",
+        "date": "2 months ago",
+        "text": "The attention to detail and calm demeanor of Dr. Vance immediately put my worries at ease. The digital imaging results were available in under 30 minutes. Absolutely outstanding medical facility."
+      },
+      "t2": {
+        "name": "Ahmed Al-Maktoum",
+        "role": "Executive Health Member",
+        "service": "Comprehensive Screening",
+        "date": "3 weeks ago",
+        "text": "From the reception team to the laboratory staff, the experience was smooth and thoroughly professional. The doctor explained every finding clearly without jargon."
+      },
+      "t3": {
+        "name": "Nouran El-Sayed",
+        "role": "Mother of Two",
+        "service": "Pediatric Wellness Checkup",
+        "date": "1 month ago",
+        "text": "Taking toddlers to clinics can be stressful, but the pediatric team at NOVA made my children feel completely at home. Clean, comfortable, and remarkably warm care."
+      }
+    },
+    "cta": {
+      "title": "Your health deserves thoughtful care.",
+      "description": "Experience healthcare crafted around respect, clinical rigor, and immediate responsiveness. Inquire or visit us today.",
+      "button": "Contact Our Center",
+      "secondaryButton": "View Specialties"
+    }
+  }
+}

@@ -1,1 +1,65 @@
-{}
+{
+  "contact": {
+    "badge": "Reach Out",
+    "title": "We are here to assist you.",
+    "subtitle": "Have questions about our doctors, treatments, or clinic location? Send an inquiry or visit our clinic.",
+    "infoTitle": "Contact Information",
+    "infoSubtitle": "Reach our patient coordination desk directly during operating hours.",
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Our patient coordination team will respond within a few hours."
+    },
+    "info": {
+      "phone": { "label": "Telephone", "value": "+971 4 800 6682" },
+      "email": { "label": "Email", "value": "care@novamedicalcenter.com" },
+      "address": { "label": "Address", "value": "402 Healthcare City, Al Razi Building, Dubai, UAE" },
+      "hours": { "label": "Working Hours", "value": "Sat–Thu: 8:00 AM – 9:00 PM | Fri: 2:00 PM – 9:00 PM" }
+    },
+    "emergency": {
+      "title": "Medical Emergency?",
+      "description": "For life-threatening emergencies, please call emergency services immediately or visit the nearest A&E.",
+      "callNow": "Call 911"
+    },
+    "mapPlaceholder": "Interactive map available in production build",
+    "formTitle": "Send a Message",
+    "formSubtitle": "Fill out the form below and our team will get in touch shortly.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "e.g. Alexander Wright",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "e.g. alexander@example.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "e.g. +971 50 123 4567",
+    "subjectLabel": "Subject / Department",
+    "subjectPlaceholder": "Select a department or general inquiry",
+    "subjectGeneral": "General Inquiry",
+    "subjectCardiology": "Cardiology Department",
+    "subjectDermatology": "Dermatology Department",
+    "subjectPediatrics": "Pediatrics Department",
+    "subjectDentistry": "Dental Care Department",
+    "subjectOrtho": "Orthopedics & Rehab",
+    "subjectInternal": "Executive Health Screening",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Please share your questions or preferred consultation dates...",
+    "submitBtn": "Send Message",
+    "submitting": "Sending Inquiry...",
+    "successTitle": "Message Sent Successfully",
+    "successDesc": "Thank you for reaching out to NOVA Medical Center. Our patient coordinator will review your message and reply via email or phone within a few hours.",
+    "sendAnother": "Send Another Inquiry",
+    "errors": {
+      "nameMin": "Name must be at least 2 characters.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneMin": "Please enter a valid phone number (at least 7 digits).",
+      "subjectRequired": "Please select a subject or department.",
+      "messageMin": "Message must be at least 10 characters long."
+    },
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "q1": "Do I need a doctor's referral to visit NOVA Medical Center?",
+      "a1": "No, you do not need a referral. You can reach out directly to consult any of our specialist physicians.",
+      "q2": "Is parking available at the medical center?",
+      "a2": "Yes, we offer complimentary on-site parking and valet service for all patients and their companions.",
+      "q3": "How quickly can I get an appointment?",
+      "a3": "Our coordinators typically arrange consultation slots within 24 to 48 hours, with urgent cases accommodated same-day."
+    }
+  }
+}

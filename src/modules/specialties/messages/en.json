@@ -1,1 +1,33 @@
-{}
+{
+  "specialties": {
+    "badge": "Specialized Care",
+    "title": "Our Medical Specialties",
+    "subtitle": "Expert-led medical departments working together to provide continuous, high-grade care.",
+    "viewDoctors": "Doctors in this Department",
+    "availableServices": "Available Services",
+    "cardiology": {
+      "name": "Cardiology",
+      "description": "Preventive heart health, cardiovascular diagnosis, hypertension control, and lifestyle management."
+    },
+    "dermatology": {
+      "name": "Dermatology",
+      "description": "Comprehensive clinical skin conditions, eczema, mole mapping, and advanced dermatological health."
+    },
+    "pediatrics": {
+      "name": "Pediatrics",
+      "description": "Dedicated pediatric wellness checks, developmental monitoring, and gentle care for infants and adolescents."
+    },
+    "dentistry": {
+      "name": "Dentistry",
+      "description": "Preventive dental prophylaxis, smile aesthetics, periodontal maintenance, and gentle oral hygiene."
+    },
+    "orthopedics": {
+      "name": "Orthopedics & Sports Medicine",
+      "description": "Joint health, back pain rehabilitation, mobility assessment, and conservative non-surgical therapy."
+    },
+    "internalMedicine": {
+      "name": "Internal Medicine",
+      "description": "Adult general wellness, metabolic management, chronic condition oversight, and comprehensive screening."
+    }
+  }
+}

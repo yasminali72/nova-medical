@@ -50,12 +50,15 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
 
         {/* Bio info */}
         <div className="p-6">
-          <div className="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold uppercase tracking-wider mb-1">
-            <CheckCircle2 className="w-3 h-3" />
-            <span>{t(doctor.verified)}</span>
-          </div>
+          {doctor.verified && (
+            <div className="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold uppercase tracking-wider mb-1">
+              <CheckCircle2 className="w-3 h-3" />
+              <span>{t(doctor.verified)}</span>
+            </div>
+          )}
 
           <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors leading-snug">
+
             {t(doctor.nameKey)}
           </h3>
           <p className="text-xs font-semibold uppercase tracking-wider text-accent mb-3 mt-0.5">

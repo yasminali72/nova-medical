@@ -8,7 +8,7 @@ export async function ServicesTemplate() {
   const t = await getTranslations();
 
   return (
-    <div className="flex flex-col gap-16 pb-28">
+    <div className="flex flex-col gap-16">
       {/* Header */}
       <section className="relative pt-16 sm:pt-24 border-b border-border/70 pb-20 bg-gradient-to-b from-primary/[0.05] via-card/50 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

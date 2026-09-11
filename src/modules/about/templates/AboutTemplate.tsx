@@ -27,7 +27,7 @@ export async function AboutTemplate() {
   ];
 
   return (
-    <div className="flex flex-col gap-24 sm:gap-32 pb-28 overflow-hidden">
+    <div className="flex flex-col gap-24 sm:gap-32 overflow-hidden">
       {/* HERO */}
       <section className="relative pt-16 sm:pt-24 border-b border-border/70 pb-24 bg-gradient-to-b from-primary/[0.05] via-card/50 to-transparent">
         <div className="absolute inset-0 pointer-events-none -z-10 overflow-hidden">

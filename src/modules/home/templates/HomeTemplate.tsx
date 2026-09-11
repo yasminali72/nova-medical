@@ -11,7 +11,7 @@ import { FinalCTA } from "@/modules/home/components/FinalCTA";
 
 export async function HomeTemplate() {
   return (
-    <div className="flex flex-col gap-24 sm:gap-32 pb-28 overflow-hidden">
+    <div className="flex flex-col gap-24 sm:gap-32 overflow-hidden">
       <Hero />
       <Statistics />
       <SpecialtiesPreview />

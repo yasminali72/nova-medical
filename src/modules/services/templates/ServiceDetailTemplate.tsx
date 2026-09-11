@@ -14,7 +14,7 @@ export async function ServiceDetailTemplate({ slug }: { slug: string }) {
   if (!service) notFound();
 
   return (
-    <div className="flex flex-col gap-16 pb-28">
+    <div className="flex flex-col gap-16">
       {/* Header */}
       <section className="pt-16 sm:pt-24 border-b border-border/70 pb-16 bg-gradient-to-b from-primary/3 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

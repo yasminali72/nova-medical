@@ -31,7 +31,7 @@ export async function FacilitiesPreview() {
       {/* Editorial grid: 1 large + 2 small */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
         {/* Main large card */}
-        <div className="md:col-span-7 group relative rounded-[2rem] overflow-hidden aspect-video sm:aspect-[16/10] border border-border/80 shadow-xl bg-card">
+        <div className="md:col-span-7 group relative rounded-[2rem] overflow-hidden aspect-video sm:aspect-[16/10] border border-border/80 shadow-xl bg-card md:h-full md:w-full">
           <Image
             src={facilities[0].image}
             alt={t(facilities[0].nameKey)}

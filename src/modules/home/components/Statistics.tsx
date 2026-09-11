@@ -18,7 +18,7 @@ export async function Statistics() {
           {stats.map((stat, i) => (
             <MotionWrapper key={stat.label} delay={i * 0.1} className={i > 0 ? "pt-6 sm:pt-0 sm:ps-8" : ""}>
               <div className="text-center sm:text-start space-y-2 group">
-                <div className="text-4xl sm:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent tracking-tight transition-transform duration-300 group-hover:scale-105 inline-block">
+                <div className="text-4xl sm:text-5xl lg:text-6xl font-black text-primary bg-clip-text bg-gradient-to-r from-primary to-accent tracking-tight transition-transform duration-300 group-hover:scale-105 inline-block">
                   {stat.value}
                 </div>
                 <div className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-muted-foreground">

@@ -56,9 +56,9 @@ export async function FacilitiesTemplate() {
                   <p className="text-base text-muted-foreground leading-relaxed">
                     {t(facility.descriptionKey)}
                   </p>
-                  {facility.highlights && (
+                  {facility.featuresKeys && (
                     <ul className="space-y-2.5 pt-2">
-                      {facility.highlights.map((h: string) => (
+                      {facility.featuresKeys.map((h: string) => (
                         <li key={h} className="flex items-start gap-2.5 text-sm text-foreground/90">
                           <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" />
                           <span>{t(h)}</span>

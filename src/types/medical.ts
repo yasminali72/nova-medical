@@ -37,7 +37,9 @@ export interface Doctor {
   expertiseKeys: string[];
   languagesKeys: string[];
   scheduleDaysKey: string;
+  verified?: string;
 }
+
 
 export interface Facility {
   id: string;

@@ -17,6 +17,7 @@
       "yearsExp": "Years Experience"
     },
     "drElena": {
+      "verified": "Verified Consultant",
       "name": "Dr. Elena Vance",
       "title": "Consultant Cardiologist",
       "bio": "Dr. Elena Vance brings 14 years of clinical experience in preventive cardiology, non-invasive cardiac imaging, and hypertensive disorders across renowned European healthcare centers.",
@@ -29,6 +30,7 @@
       "schedule": "Monday, Wednesday, Saturday (9:00 AM – 4:00 PM)"
     },
     "drTariq": {
+      "verified": "Verified Consultant",
       "name": "Dr. Tariq Mansour",
       "title": "Consultant Internal Medicine",
       "bio": "Dr. Tariq Mansour has spent over 16 years diagnosing complex multisystem conditions, metabolic management, and conducting executive wellness evaluations.",
@@ -40,6 +42,7 @@
       "schedule": "Sunday to Thursday (8:30 AM – 3:30 PM)"
     },
     "drSarah": {
+      "verified": "Verified Specialist",
       "name": "Dr. Sarah Jenkins",
       "title": "Specialist Dermatologist",
       "bio": "Dr. Sarah Jenkins is passionate about evidence-based dermatological care, focusing on allergic skin reactions, rosacea, acne therapeutics, and digital dermoscopy.",
@@ -51,6 +54,7 @@
       "schedule": "Tuesday, Thursday, Saturday (10:00 AM – 6:00 PM)"
     },
     "drKhalid": {
+      "verified": "Verified Consultant",
       "name": "Dr. Khalid Al-Omari",
       "title": "Consultant Orthopedic Surgeon & Rehab",
       "bio": "Dr. Khalid Al-Omari specializes in conservative joint restoration, sports injury rehabilitation, spinal biomechanics, and evidence-guided non-surgical therapies.",

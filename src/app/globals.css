@@ -2,67 +2,100 @@
 
 @layer base {
   :root {
-    --background: 216 33% 98%;
-    --foreground: 222 47% 11%;
+    --background: 160 30% 98.5%;
+    --foreground: 195 40% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card-foreground: 195 40% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover-foreground: 195 40% 12%;
 
-    /* Deep Medical Cyan / Teal */
-    --primary: 174 78% 36%;
+    /* User Requested Palette:
+       primary: '#006857' -> 170 100% 20.4%
+       on-primary: '#ffffff'
+       primary-container: '#00846e' -> 170 100% 25.9%
+       on-primary-container: '#f4fffa'
+       inverse-primary: '#5ddbbe'
+       secondary: '#1e667f' -> 196 62% 31%
+       on-secondary: '#ffffff'
+       secondary-container: '#a1e0fd' -> 199 94% 81%
+       on-secondary-container: '#1c657e' -> 196 64% 30%
+       tertiary: '#545e60' -> 190 7% 35%
+       on-tertiary: '#ffffff'
+       tertiary-container: '#6c7679' -> 193 6% 45%
+       on-tertiary-container: '#f8fdff'
+    */
+    --primary: 170 100% 20.4%;
     --primary-foreground: 0 0% 100%;
+    --primary-container: 170 100% 25.9%;
+    --on-primary-container: 156 100% 98%;
+    --inverse-primary: 166 61% 61%;
 
-    --secondary: 214 32% 95%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 196 62% 31%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-container: 199 94% 81%;
+    --on-secondary-container: 196 64% 30%;
 
-    --muted: 215 28% 95%;
-    --muted-foreground: 215 16% 46%;
+    --tertiary: 190 7% 35%;
+    --on-tertiary: 0 0% 100%;
+    --tertiary-container: 193 6% 45%;
+    --on-tertiary-container: 200 100% 99%;
 
-    /* Vibrant Azure */
-    --accent: 200 95% 45%;
+    --muted: 196 30% 94%;
+    --muted-foreground: 190 7% 42%;
+
+    --accent: 196 62% 31%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 215 28% 90%;
-    --input: 215 28% 90%;
-    --ring: 174 78% 36%;
+    --border: 170 20% 90%;
+    --input: 170 20% 90%;
+    --ring: 170 100% 20.4%;
 
     --radius: 1rem;
   }
 
   .dark {
-    --background: 224 50% 6%;
-    --foreground: 210 40% 98%;
+    --background: 196 45% 7%;
+    --foreground: 160 30% 98%;
 
-    --card: 224 45% 9%;
-    --card-foreground: 210 40% 98%;
+    --card: 196 40% 10%;
+    --card-foreground: 160 30% 98%;
 
-    --popover: 224 45% 9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 196 40% 10%;
+    --popover-foreground: 160 30% 98%;
 
-    --primary: 172 75% 44%;
-    --primary-foreground: 224 50% 6%;
+    --primary: 166 61% 55%;
+    --primary-foreground: 196 45% 7%;
+    --primary-container: 170 100% 22%;
+    --on-primary-container: 156 100% 95%;
+    --inverse-primary: 170 100% 20.4%;
 
-    --secondary: 220 30% 14%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 199 85% 70%;
+    --secondary-foreground: 196 64% 15%;
+    --secondary-container: 196 62% 25%;
+    --on-secondary-container: 199 94% 85%;
 
-    --muted: 220 30% 14%;
-    --muted-foreground: 215 20% 65%;
+    --tertiary: 193 15% 75%;
+    --on-tertiary: 196 45% 7%;
+    --tertiary-container: 193 10% 28%;
+    --on-tertiary-container: 200 100% 98%;
 
-    --accent: 198 90% 50%;
-    --accent-foreground: 224 50% 6%;
+    --muted: 196 30% 15%;
+    --muted-foreground: 193 15% 65%;
+
+    --accent: 199 85% 65%;
+    --accent-foreground: 196 45% 7%;
 
     --destructive: 0 63% 38%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 30% 16%;
-    --input: 220 30% 16%;
-    --ring: 172 75% 44%;
+    --border: 196 30% 18%;
+    --input: 196 30% 18%;
+    --ring: 166 61% 55%;
   }
 }
 
@@ -72,19 +105,20 @@ body {
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   overflow-x: hidden;
   background-image: 
-    radial-gradient(at 15% 15%, hsla(174, 80%, 40%, 0.04) 0px, transparent 50%),
-    radial-gradient(at 85% 20%, hsla(200, 95%, 45%, 0.04) 0px, transparent 50%),
-    radial-gradient(at 50% 90%, hsla(174, 80%, 40%, 0.03) 0px, transparent 50%);
+    radial-gradient(at 15% 15%, hsla(170, 100%, 25%, 0.04) 0px, transparent 50%),
+    radial-gradient(at 85% 20%, hsla(196, 62%, 31%, 0.05) 0px, transparent 50%),
+    radial-gradient(at 50% 90%, hsla(170, 100%, 25%, 0.03) 0px, transparent 50%);
   background-attachment: fixed;
 }
 
 .dark body {
   background-image: 
-    radial-gradient(at 10% 10%, hsla(172, 75%, 45%, 0.06) 0px, transparent 45%),
-    radial-gradient(at 90% 25%, hsla(198, 90%, 50%, 0.06) 0px, transparent 45%),
-    radial-gradient(at 50% 85%, hsla(172, 75%, 45%, 0.04) 0px, transparent 50%);
+    radial-gradient(at 10% 10%, hsla(166, 61%, 55%, 0.06) 0px, transparent 45%),
+    radial-gradient(at 90% 25%, hsla(199, 85%, 65%, 0.06) 0px, transparent 45%),
+    radial-gradient(at 50% 85%, hsla(166, 61%, 55%, 0.04) 0px, transparent 50%);
   background-attachment: fixed;
 }
+
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {

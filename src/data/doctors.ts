@@ -4,6 +4,7 @@ export const doctors: Doctor[] = [
   {
     id: "dr-elena-vance",
     slug: "dr-elena-vance",
+    verified: 'doctors.drElena.verified',
     nameKey: "doctors.drElena.name",
     titleKey: "doctors.drElena.title",
     specialtyId: "cardiology",
@@ -27,6 +28,7 @@ export const doctors: Doctor[] = [
   {
     id: "dr-tariq-mansour",
     slug: "dr-tariq-mansour",
+    verified: 'doctors.drTariq.verified',
     nameKey: "doctors.drTariq.name",
     titleKey: "doctors.drTariq.title",
     specialtyId: "internal-medicine",
@@ -49,6 +51,7 @@ export const doctors: Doctor[] = [
   {
     id: "dr-sarah-jenkins",
     slug: "dr-sarah-jenkins",
+    verified: 'doctors.drSarah.verified',
     nameKey: "doctors.drSarah.name",
     titleKey: "doctors.drSarah.title",
     specialtyId: "dermatology",
@@ -71,6 +74,7 @@ export const doctors: Doctor[] = [
   {
     id: "dr-khalid-al-omari",
     slug: "dr-khalid-al-omari",
+    verified: 'doctors.drKhalid.verified',
     nameKey: "doctors.drKhalid.name",
     titleKey: "doctors.drKhalid.title",
     specialtyId: "orthopedics",

@@ -1,7 +1,14 @@
 import { Doctor } from "@/types/medical";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
-import { Star, Award, Calendar, ArrowRight, ArrowLeft, CheckCircle2 } from "lucide-react";
+import {
+  Star,
+  Award,
+  Calendar,
+  ArrowRight,
+  ArrowLeft,
+  CheckCircle2,
+} from "lucide-react";
 import { getLocale, getTranslations } from "next-intl/server";
 
 interface DoctorCardProps {
@@ -10,9 +17,6 @@ interface DoctorCardProps {
 
 export async function DoctorCard({ doctor }: DoctorCardProps) {
   const t = await getTranslations();
-  const locale = await getLocale();
-  const isRtl = locale === "ar";
-  const ArrowIcon = isRtl ? ArrowLeft : ArrowRight;
 
   return (
     <div className="group relative flex flex-col justify-between rounded-3xl bg-card border border-border/80 overflow-hidden hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300">
@@ -25,6 +29,7 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
             className="object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
+
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
@@ -37,7 +42,9 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
           {/* Experience tag */}
           <div className="absolute bottom-3 start-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/95 text-white text-xs font-bold shadow-lg backdrop-blur-sm">
             <Award className="w-3.5 h-3.5" />
-            <span>{t("doctors.yearsExperience", { years: doctor.experienceYears })}</span>
+            <span>
+              {t("doctors.yearsExperience", { years: doctor.experienceYears })}
+            </span>
           </div>
         </div>
 
@@ -45,7 +52,7 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
         <div className="p-6">
           <div className="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold uppercase tracking-wider mb-1">
             <CheckCircle2 className="w-3 h-3" />
-            <span>Verified Consultant</span>
+            <span>{t(doctor.verified)}</span>
           </div>
 
           <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors leading-snug">
@@ -66,13 +73,13 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
         </div>
       </div>
 
-      <div className="p-6 pt-0 border-t border-border/60 mt-2 flex items-center justify-between">
+      <div className="p-6 pt-2 border-t border-border/60 mt-2 flex items-center justify-between">
         <Link
           href={`/doctors/${doctor.slug}`}
           className="inline-flex items-center gap-1.5 text-xs font-bold text-primary hover:underline"
         >
           <span>{t("common.viewProfile")}</span>
-          <ArrowIcon className="w-3.5 h-3.5 transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform" />
+          <ArrowLeft className="w-3.5 h-3.5 transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform ltr:rotate-180" />
         </Link>
         <Link
           href="/contact"
@@ -84,4 +91,3 @@ export async function DoctorCard({ doctor }: DoctorCardProps) {
     </div>
   );
 }
-

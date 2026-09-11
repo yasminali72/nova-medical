@@ -67,7 +67,6 @@ export function NavbarClient({
 
   // Close mobile menu when route changes
   useEffect(() => {
-    setMobileOpen(false);
     setActiveDropdown(null);
   }, [pathname]);
 

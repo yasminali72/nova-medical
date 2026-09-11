@@ -31,6 +31,7 @@
     "backToHome": "Back to Home",
     "backToServices": "Back to Services",
     "backToDoctors": "Back to Doctors",
+    "bookConsultation": "Book a Consultation",
     "fictionalDisclaimer": "NOVA Medical Center is a conceptual showcase portfolio project created to demonstrate modern Front-End engineering excellence."
   },
   "navigation": {
@@ -239,6 +240,12 @@
     "relatedDoctors": "Consulting Specialists",
     "inquireService": "Inquire About This Service",
     "serviceNotFound": "Service not found",
+    "detail": {
+      "whatWeOffer": "What This Service Includes",
+      "benefits": "Key Benefits",
+      "duration": "Estimated Duration",
+      "suitableFor": "Recommended For"
+    },
     "cardioConsultation": {
       "title": "Cardiology Consultation & Screening",
       "subtitle": "Comprehensive heart health evaluations and early risk prevention.",
@@ -375,6 +382,11 @@
     "consultationDays": "Clinic Availability",
     "bookInquiry": "Request Consultation with Doctor",
     "profileNotFound": "Doctor profile not found",
+    "detail": {
+      "education": "Education & Credentials",
+      "areasOfExpertise": "Areas of Expertise",
+      "yearsExp": "Years Experience"
+    },
     "drElena": {
       "name": "Dr. Elena Vance",
       "title": "Consultant Cardiologist",
@@ -482,6 +494,22 @@
     "subtitle": "Have questions about our doctors, treatments, or clinic location? Send an inquiry or visit our clinic.",
     "infoTitle": "Contact Information",
     "infoSubtitle": "Reach our patient coordination desk directly during operating hours.",
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Our patient coordination team will respond within a few hours."
+    },
+    "info": {
+      "phone": { "label": "Telephone", "value": "+971 4 800 6682" },
+      "email": { "label": "Email", "value": "care@novamedicalcenter.com" },
+      "address": { "label": "Address", "value": "402 Healthcare City, Al Razi Building, Dubai, UAE" },
+      "hours": { "label": "Working Hours", "value": "Sat–Thu: 8:00 AM – 9:00 PM | Fri: 2:00 PM – 9:00 PM" }
+    },
+    "emergency": {
+      "title": "Medical Emergency?",
+      "description": "For life-threatening emergencies, please call emergency services immediately or visit the nearest A&E.",
+      "callNow": "Call 911"
+    },
+    "mapPlaceholder": "Interactive map available in production build",
     "formTitle": "Send a Message",
     "formSubtitle": "Fill out the form below and our team will get in touch shortly.",
     "nameLabel": "Full Name",
